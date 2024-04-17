@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html  dir="rtl" lang="ar">
+
+<head>
+    <title>مشروع التخرج</title>
+    <meta charset="UTF-8">
+ <link rel="stylesheet" type="text/css" href="top.css">
+ <meta name="viewport" content="width=device=width, initial-scale=1.0">
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar() ><a href="#close"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="zainab.html">الصفحة الرئيسية </a></li>
+            <li><a href="top.html">عن المدرسة</a></li>
+            <li><a href="schoolstaff.html">الطاقم المدرسي</a></li>
+            <li><a href="events.html">الفعاليات</a></li>
+            <li><a href="morning.html">الاذاعات</a></li>
+            <li><a href="excellence.html">التميز</a></li>
+            <li><a href="awards.html">المسابقات والجوائز</a></li>
+            <li><a href="connect.html">لتكن على اتصال </a></li>
+        </ul>
+    
+       <ul>
+        <li class="memu-btton" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        <li><a href="zainab.html">الصفحة الرئيسية </a></li>
+        <li class="hideOnMobile"><a href="top.html">عن المدرسة</a></li>
+        <li class="hideOnMobile"><a href="schoolstaff.html">الطاقم المدرسي</a></li>
+        <li class="hideOnMobile"><a href="events.html">الفعاليات</a></li>
+        <li class="hideOnMobil"><a href="morning.html">الاذاعات</a></li>
+        <li class="hideOnMobile"><a href="excellence.html">التميز</a></li>
+        <li class="hideOnMobile"><a href="awards.html">المسابقات والجوائز</a></li>
+        <li class="hideOnMobile"><a href="connect.html">لتكن على اتصال </a></li>
+            </ul>
+       </nav>
+    
+
+   <script>
+    function showSidebar(){
+        var sidebar = document.querySelector('.sidebar');
+        sidebar.style.display = 'flex';
+    }
+    function hideSidebar(){
+        var sidebar = document.querySelector('.sidebar');
+        sidebar.style.display = 'none';  
+    }
+</script>
+
+
+<br>
+   <font size="24"><h1> <big>كل مايخص المدرسة</big></font> </h1> 
+   <br><br>
+   <h2> 
+    نبذة عن تكوين المدرسة توضح عدد الفصول والمعامل المدرسية .
+</h2>
+<br><br><br>
+ <p> <font size="12">  غرف المدرسة : </font><br><br></p> 
+  <br>
+<div class="full-row">
+    <div class="div-fourth">
+        <b> <br><br>
+            الفصول الدراسية وعددها 14 فصل : </b><br>
+        مرحلة ثالث ثانوي 4 فصول <br>
+        مرحلة ثاني ثانوي 4 فصول <br>
+        مرحلة اول ثانوي 5 فصول
+        <br><br>
+    </div>
+    <div class="div-fourth">
+        <br>
+        <b>المعامل والمختبرات: </b> <br>
+        معملين حاسب  <br>
+        معمل انجليزي <br>
+        مختبر كيمياء <br>
+        مختبر فيزياء واحياء
+        <br><br>
+    </div>
+    <div class="div-fourth">
+        <b>الادارة : </b> <br>
+        الارشاد الصحي  <br>
+        غرفة المديرة <br>
+        غرفة الوكيلة <br>
+        غرفة ادارة <br>
+        الاستقبال
+        <br><br>
+    </div>
+    <div class="div-fourth">
+        <b>اخرى: </b><br>
+        المصادر التعليمية <br>
+        ٣ غرف معلمات <br>
+        غرفة المراقِبة <br>
+        غرفة المدرشدة الطلابية <br>
+        معمل التربية الاسرية والفنية <br>
+        غرفةاجتماعات</div>
+</div>
+
+</body>
+</html>
